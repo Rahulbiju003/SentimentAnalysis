@@ -7,23 +7,33 @@ This project implements a sentiment analysis model using BERT to classify text i
 ## Features
 
 -Parses custom text formats into structured CSV data
+
 -Cleans and preprocesses text data
+
 -Visualizes class distribution and text length
+
 -Implements a BERT-based text classification model using simpletransformers
+
 -Evaluates the model with classification reports and confusion matrices
+
 -Provides a function for predicting sentiment with confidence scores and explanations
+
 
 
 ## Data Preprocessing
 
 -Loads dataset and removes duplicates
+
 -Visualizes class distribution using Seaborn
+
 -Analyzes text length distribution
+
 -Maps sentiment labels to numerical values (0: positive, 1: negative, 2: neutral)
 
 ## Model Training
 
 -Model: bert-base-cased
+
 -Training: Uses simpletransformers for training
 
 Hyperparameters:
