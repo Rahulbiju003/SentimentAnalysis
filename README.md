@@ -37,13 +37,19 @@ This project implements a sentiment analysis model using BERT to classify text i
 -Training: Uses simpletransformers for training
 
 Hyperparameters:
+
 -num_train_epochs: 2
+
 -learning_rate: 3e-5
+
 -max_seq_length: 128
+
 -train_batch_size: 8
+
 -eval_batch_size: 16
 
 ## Model Evaluation
 
 -Generates a classification report with precision, recall, and F1-score
+
 -Plots a confusion matrix to analyze predictions
